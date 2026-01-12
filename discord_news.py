@@ -142,10 +142,6 @@ class NewsTracker:
             logger.error(f"Error running bot: {e}")
 
 def main():
-    # Create .env file with these variables:
-    # NEWS_API_KEY=your_news_api_key
-    # DISCORD_TOKEN=your_discord_bot_token
-    # DISCORD_CHANNEL_ID=your_channel_id
     
     tracker = NewsTracker()
     tracker.run()
